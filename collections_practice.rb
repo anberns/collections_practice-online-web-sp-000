@@ -65,7 +65,7 @@ end
 def add_s(array)
   altered = []
   array.each_with_index do |value, index|
-    if index != 2 
+    if index != 1 
       altered << value + "s"
     else 
       altered << value 
