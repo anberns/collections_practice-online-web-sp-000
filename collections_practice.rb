@@ -63,13 +63,14 @@ end
 
 #add_s
 def add_s(array)
-  array.each_with_index.collect |value, index|
+  altered = []
+  array.each_with_index do |value, index|
     if index != 2 
-      value + "s"
+      altered << value + "s"
     else 
-      value 
+      altered << value 
     end 
   end
-  array 
+  altered 
 end
   
