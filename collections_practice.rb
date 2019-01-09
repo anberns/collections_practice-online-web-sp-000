@@ -69,7 +69,6 @@ def add_s(array)
     else 
       value 
     end 
-  end
   array 
 end
   
