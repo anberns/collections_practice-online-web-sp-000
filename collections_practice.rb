@@ -60,4 +60,12 @@ def sum_array(array)
   sum_array = array.inject { |sum, n| sum + n } 
   sum_array
 end
+
+#add_s
+def add_s(array)
+  array.each_with_index.collect |value, index|
+    index == 2 ? value : value + "s" 
+  end
+  array 
+end
   
