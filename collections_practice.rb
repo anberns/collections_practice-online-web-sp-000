@@ -45,3 +45,12 @@ def kesha_maker(array)
   end 
   array 
 end
+
+#find_a
+def find_a(array)
+  collection = []
+  array.each do |value|
+    collection << value if value.start_with?("a")
+  end 
+  collection
+end
