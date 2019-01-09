@@ -54,3 +54,7 @@ def find_a(array)
   end 
   collection
 end
+
+#sum_array
+def sum_array(array)
+  
