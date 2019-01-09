@@ -64,7 +64,11 @@ end
 #add_s
 def add_s(array)
   array.each_with_index.collect |value, index|
-    index == 2 ? value : value + "s" 
+    if index != 2 
+      value + "s"
+    else 
+      value 
+    end 
   end
   array 
 end
